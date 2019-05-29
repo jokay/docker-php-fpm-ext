@@ -1,6 +1,6 @@
 # Docker php fpm ext
 
-Docker image containing [php fpm alpine](https://hub.docker.com/_/php) and some extensions (`iconv`, `gd`).
+Docker image containing [php fpm alpine](https://hub.docker.com/_/php) and some [extensions](https://github.com/x-jokay/docker-php-fpm-ext#supported-php-extensions).
 
 ## Information
 
@@ -27,3 +27,10 @@ docker pull xjokay/php-fpm-ext
 | Tag    | Description         | Size                                                                                                          |
 |--------|---------------------|---------------------------------------------------------------------------------------------------------------|
 | latest | Latest master build | ![Size](https://shields.beevelop.com/docker/image/image-size/xjokay/php-fpm-ext/latest.svg?style=flat-square) |
+
+### Supported php extensions
+
+The following php extensions are supported:
+
+* iconv
+* gd
