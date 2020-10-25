@@ -1,4 +1,4 @@
-FROM php:fpm-alpine3.12
+FROM php:7.4.11-fpm-alpine3.12
 
 RUN apk add --update --no-cache \
         fcgi \
