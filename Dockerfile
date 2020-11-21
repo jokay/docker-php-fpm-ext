@@ -8,7 +8,8 @@ RUN apk add --update --no-cache \
         libpng-dev && \
     docker-php-ext-install -j$(nproc) iconv && \
     docker-php-ext-configure gd --with-freetype --with-jpeg && \
-    docker-php-ext-install -j$(nproc) gd
+    docker-php-ext-install -j$(nproc) gd && \
+    docker-php-ext-install mysqli
 
 HEALTHCHECK --interval=30s --timeout=5s --retries=5 \
     CMD \

@@ -32,5 +32,6 @@ docker pull xjokay/php-fpm-ext
 
 The following php extensions are supported:
 
-* iconv
-* gd
+- iconv
+- gd
+- mysqli
