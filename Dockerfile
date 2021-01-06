@@ -1,5 +1,17 @@
 FROM php:7.4.12-fpm-alpine3.12
 
+ARG MAINTAINER
+ARG REPOSITORY
+ARG VERSION
+ARG COMMIT
+ARG DATE
+
+LABEL Maintainer=${MAINTAINER} \
+      Repository=${REPOSITORY} \
+      Version=${VERSION} \
+      Commit=${COMMIT} \
+      Date=${DATE}
+
 RUN apk add --update --no-cache \
         fcgi \
         tzdata \
