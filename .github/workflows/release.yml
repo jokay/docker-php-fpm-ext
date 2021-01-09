@@ -7,8 +7,8 @@ env:
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
+    tags:
+      - '*'
 
 jobs:
   dockerhub:
@@ -17,9 +17,18 @@ jobs:
       - name: Set variables
         run: |
           echo "DATE=$(date -u +%Y-%m-%dT%H:%M:%S%z)" >> $GITHUB_ENV
-          echo "VERSION=latest" >> $GITHUB_ENV
+          echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Create release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          body: |
+            This release **${{ env.VERSION }}** uses PHP version **${{ env.VERSION }}**.
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
       - name: Set up Docker Buildx
@@ -43,4 +52,5 @@ jobs:
             COMMIT=${{ github.sha }}
             DATE=${{ env.DATE }}
           tags: |
+            ${{ env.DOCKERHUB_REPO }}:latest
             ${{ env.DOCKERHUB_REPO }}:${{ env.VERSION }}

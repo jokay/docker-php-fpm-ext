@@ -17,9 +17,10 @@ docker pull xjokay/php-fpm-ext
 
 ### Tags
 
-| Tag    | Description         | Size                                                                                                          |
-|--------|---------------------|---------------------------------------------------------------------------------------------------------------|
-| latest | Latest `main` build | ![Size](https://shields.beevelop.com/docker/image/image-size/xjokay/php-fpm-ext/latest.svg?style=flat-square) |
+| Tag       | Description | Size |
+|-----------|-------------|------|
+| latest    | [Latest](https://github.com/x-jokay/docker-php-fpm-ext/releases/latest) release | ![Size](https://shields.beevelop.com/docker/image/image-size/xjokay/php-fpm-ext/latest.svg?style=flat-square) |
+| {release} | Specific release version, see available [releases](https://github.com/x-jokay/docker-php-fpm-ext/releases) | |
 
 ### Supported php extensions
 
