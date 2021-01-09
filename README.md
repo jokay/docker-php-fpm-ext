@@ -1,6 +1,6 @@
-# Docker php fpm ext
+# Docker PHP-FPM with extensions
 
-Docker image containing [php fpm alpine](https://hub.docker.com/_/php) and some [extensions](https://github.com/x-jokay/docker-php-fpm-ext#supported-php-extensions).
+Docker image containing [PHP-FPM Alpine](https://hub.docker.com/_/php) and some [extensions](https://github.com/x-jokay/docker-php-fpm-ext#supported-php-extensions).
 
 ## Information
 
