@@ -1,4 +1,4 @@
-FROM php:7.4.13-fpm-alpine3.12
+FROM php:7.4.14-fpm-alpine3.12
 
 ARG MAINTAINER
 ARG REPOSITORY
