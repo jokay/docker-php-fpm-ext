@@ -4,6 +4,6 @@
 
 This release contains PHP [7.4.15](https://www.php.net/ChangeLog-7.php#7.4.15).
 
-## [7.4.14](https://github.com/jokay/docker-php-fpm-ext/releases/tag/7.4.14) (2021-01-10)
+## 7.4.14 (2021-01-10)
 
-This release contains PHP [7.4.14](https://www.php.net/ChangeLog-7.php#7.4.14).
+This release contained PHP [7.4.14](https://www.php.net/ChangeLog-7.php#7.4.14).
