@@ -2,10 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "stabilityDays": 3,
   "timezone": "Europe/Zurich",
   "schedule": [
-    "0 0 * * * *"
+    "before 2am"
   ]
 }
