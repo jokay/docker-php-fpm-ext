@@ -1,5 +1,11 @@
 {
   "extends": [
     "config:base"
+  ],
+  "labels": ["dependencies"],
+  "stabilityDays": 3,
+  "timezone": "Europe/Zurich",
+  "schedule": [
+    "0 0 * * * *"
   ]
 }
