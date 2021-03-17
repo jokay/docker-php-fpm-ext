@@ -1,6 +1,6 @@
 # Docker PHP-FPM with extensions
 
-Docker image containing [PHP-FPM Alpine](https://hub.docker.com/_/php) and some [extensions](https://github.com/jokay/docker-php-fpm-ext#supported-php-extensions).
+Docker image containing [PHP-FPM](https://hub.docker.com/_/php) and some [extensions](https://github.com/jokay/docker-php-fpm-ext#supported-php-extensions) based on [Alpine Linux](https://www.alpinelinux.org).
 
 ## Information
 
