@@ -1,4 +1,4 @@
-FROM docker.io/php:7.4.20-fpm-alpine3.13
+FROM docker.io/php:7.4.21-fpm-alpine3.14
 
 RUN apk add --update --no-cache \
         fcgi \
