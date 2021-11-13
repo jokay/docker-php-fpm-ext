@@ -1,4 +1,4 @@
-FROM docker.io/php:7.4.25-fpm-alpine3.14@sha256:e6c4a48d0c92e1d03a3f8929593c67acee3275c017d060b3770aa9a187736be5
+FROM docker.io/php:7.4.25-fpm-alpine3.14@sha256:365ec731569b5f5dd6a004d4a6fe18495975bdebda1061807f25c8c98cfa7f04
 
 RUN apk add --update --no-cache \
         fcgi \
