@@ -4,6 +4,9 @@ Docker image containing [PHP-FPM](https://hub.docker.com/_/php) and some
 [extensions](https://github.com/jokay/docker-php-fpm-ext#supported-php-extensions)
 based on [Alpine Linux](https://www.alpinelinux.org).
 
+> Security support for PHP **7.4** is ending on **28 November 2022**.  
+> This image will then be upgrade to PHP **8.1**.
+
 ## Information
 
 | Service                                                   | Stats                                                                                                                                                                                                                                                                                                         |
