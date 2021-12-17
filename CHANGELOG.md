@@ -1,5 +1,9 @@
 # Changelog
 
+## [7.4.27](https://github.com/jokay/docker-php-fpm-ext/releases/tag/7.4.27) (2021-12-17)
+
+This release contains PHP [7.4.27](https://www.php.net/ChangeLog-7.php#7.4.27).
+
 ## [7.4.26](https://github.com/jokay/docker-php-fpm-ext/releases/tag/7.4.26) (2021-11-19)
 
 This release contains PHP [7.4.26](https://www.php.net/ChangeLog-7.php#7.4.26).
