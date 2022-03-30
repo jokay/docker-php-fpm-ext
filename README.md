@@ -11,7 +11,7 @@ based on [Alpine Linux](https://www.alpinelinux.org).
 ## Information
 
 | Service                                                   | Stats                                                                                                                                                                                                                                                                                                         |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [GitHub](https://github.com/jokay/docker-php-fpm-ext)     | ![Last commit](https://img.shields.io/github/last-commit/jokay/docker-php-fpm-ext.svg?style=flat-square) ![Issues](https://img.shields.io/github/issues-raw/jokay/docker-php-fpm-ext.svg?style=flat-square) ![PR](https://img.shields.io/github/issues-pr-raw/jokay/docker-php-fpm-ext.svg?style=flat-square) |
 | [Docker Hub](https://hub.docker.com/r/xjokay/php-fpm-ext) | ![Pulls](https://img.shields.io/docker/pulls/xjokay/php-fpm-ext.svg?style=flat-square) ![Stars](https://img.shields.io/docker/stars/xjokay/php-fpm-ext.svg?style=flat-square)                                                                                                                                 |
 
@@ -24,7 +24,7 @@ docker pull docker.io/xjokay/php-fpm-ext:latest
 ### Tags
 
 | Tag       | Description                                                                                              |
-| --------- | -------------------------------------------------------------------------------------------------------- |
+|-----------|----------------------------------------------------------------------------------------------------------|
 | latest    | [Latest](https://github.com/jokay/docker-php-fpm-ext/releases/latest) release                            |
 | {release} | Specific release version, see available [releases](https://github.com/jokay/docker-php-fpm-ext/releases) |
 
