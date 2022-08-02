@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/php
-FROM docker.io/php:7.4.30-fpm-alpine@sha256:a429ce3ddcbbaf1bc410530845747389b61e6519bd302e1b5a6f7a177dcd1b9a
+FROM docker.io/php:7.4.30-fpm-alpine@sha256:c021f21e15da09cbe4ac7b2ea3918541f5cd99d34d0e1cdff9583d4cf66f5af7
 
 RUN apk add --update --no-cache \
         fcgi \
