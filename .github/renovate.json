@@ -15,10 +15,6 @@
       "matchPaths": [".github/workflows/*.yml"],
       "labels": ["github-actions"],
       "automerge": true
-    },
-    {
-      "packageNames": ["docker.io/php"],
-      "allowedVersions": "<8"
     }
   ]
 }
