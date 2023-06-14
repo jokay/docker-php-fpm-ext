@@ -1,7 +1,7 @@
 # Docker PHP-FPM with extensions
 
-Multi-platform Docker image containing [PHP-FPM](https://hub.docker.com/_/php) and some
-[extensions](https://github.com/jokay/docker-php-fpm-ext#supported-php-extensions)
+Multi-platform Docker image containing [PHP-FPM](https://hub.docker.com/_/php)
+and some [extensions](https://github.com/jokay/docker-php-fpm-ext#supported-php-extensions)
 based on [Alpine Linux](https://www.alpinelinux.org).
 
 ## Information
