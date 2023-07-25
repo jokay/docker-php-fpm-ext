@@ -3,7 +3,7 @@
 # https://hub.docker.com/_/php
 FROM docker.io/php:8.2.8-fpm-alpine@sha256:0d454e978247975e74dad245b682b2cf5fe9999f74f33c1bff4f505c74dd6b02
 
-RUN apk add --update --no-cache \
+RUN apk add --no-cache \
         fcgi \
         tzdata \
         freetype-dev \
