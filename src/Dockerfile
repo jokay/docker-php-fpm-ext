@@ -1,7 +1,7 @@
 # kics-scan disable=fd54f200-402c-4333-a5a4-36ef6709af2f,d3499f6d-1651-41bb-a9a7-de925fea487b
 
 # https://hub.docker.com/_/php
-FROM docker.io/php:8.3.0-fpm-alpine@sha256:36c6a789b87ddb9e0d1e71eedbe39c7748d48669a098e2865c0b5f85f755ae59
+FROM docker.io/php:8.3.0-fpm-alpine@sha256:e5a0b1e89f9cbdb62dca179f022e3d30d49949852fce500958b1ef93b44850b3
 
 RUN apk add --no-cache \
         fcgi \
