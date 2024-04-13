@@ -1,5 +1,9 @@
 # Changelog
 
+## [8.3.6](https://github.com/jokay/docker-php-fpm-ext/releases/tag/8.3.6) (2024-04-13)
+
+This release contains PHP [8.3.6](https://www.php.net/ChangeLog-8.php#8.3.6).
+
 ## [8.3.4](https://github.com/jokay/docker-php-fpm-ext/releases/tag/8.3.4) (2024-03-17)
 
 This release contains PHP [8.3.4](https://www.php.net/ChangeLog-8.php#8.3.4).
